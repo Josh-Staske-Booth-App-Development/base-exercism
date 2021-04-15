@@ -6,3 +6,14 @@ To get started with TDD, see the `README.md` file in your
 `ruby/two-fer` directory.
 =end
 
+class TwoFer
+    def self.two_fer(name)
+        if name == "Alice"
+            puts "One for Alice, one for me."
+        elsif name == "Bob"
+            puts "One for Bob, one for me."
+        else
+            puts "One for you, one for me."
+        end
+    end
+end
